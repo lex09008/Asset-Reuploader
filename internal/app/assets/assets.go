@@ -4,15 +4,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lex09008/Asset-Reuploader/internal/app/assets/animation.go"
-	"github.com/lex09008/Asset-Reuploader/internal/app/assets/shared/clientutils.go"
-	"github.com/lex09008/Asset-Reuploader/internal/app/assets/shared/permissions.go"
-	"github.com/lex09008/Asset-Reuploader/internal/app/context.go"
-	"github.com/lex09008/Asset-Reuploader/internal/app/request.go"
-	"github.com/lex09008/Asset-Reuploader/internal/app/response.go"
-	"github.com/lex09008/Asset-Reuploader/internal/color.go"
-	"github.com/lex09008/Asset-Reuploader/internal/console.go"
-	"github.com/lex09008/Asset-Reuploader/internal/roblox.go"
+	"github.com/lex09008/Asset-Reuploader/internal/app/assets/animation"
+	"github.com/lex09008/Asset-Reuploader/internal/app/assets/shared/clientutils"
+	"github.com/lex09008/Asset-Reuploader/internal/app/assets/shared/permissions"
+	"github.com/lex09008/Asset-Reuploader/internal/app/context"
+	"github.com/lex09008/Asset-Reuploader/internal/app/request"
+	"github.com/lex09008/Asset-Reuploader/internal/app/response"
+	"github.com/lex09008/Asset-Reuploader/internal/color"
+	"github.com/lex09008/Asset-Reuploader/internal/console"
+	"github.com/lex09008/Asset-Reuploader/internal/roblox"
 )
 
 var assetModules = map[string]func(ctx *context.Context, r *request.Request){
