@@ -59,7 +59,7 @@ func serve(c *roblox.Client) error {
 				respHistory = make([]response.ResponseItem, 0)
 
 				fmt.Fprint(w, "done")
-				fmt.Println("Finished reuploading")
+				fmt.Println("Finished reuploading Thanks for using Vspoof!")
 			}
 
 			return
